@@ -17,7 +17,7 @@
 
 FROM_EMAIL = 'you@example.com'
 TO_EMAIL   = 'you@example.com'
-USE_SENDGRID = True
+USE_SENDGRID = False
     # for this option you must have a SendGrid account (their free account is fine)
     # with an API key installed on your system, and the SendGrid helper library
     # installed. Your account must be have your FROM_EMAIL as a verified sender. 
