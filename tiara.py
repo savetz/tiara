@@ -33,6 +33,7 @@ import os
 from datetime import date
 from datetime import timedelta
 import urllib
+import time
 
 #days = 1 searches yesterday through today. You could make it search more days
 #without harm if you can't run this script daily
@@ -49,6 +50,7 @@ with open('searchlist.txt') as f:
 searchList = [x.strip() for x in searchList]
 
 for searchTerm in searchList:
+    time.sleep(5) #throttle searches to avoid offending archive.org
     print(searchTerm)
     out=''
 
