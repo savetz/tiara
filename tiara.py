@@ -133,7 +133,7 @@ if os.path.exists(todaysFilename):
         message = Mail(
             from_email=FROM_EMAIL,
             to_emails=TO_EMAIL,
-            subject='IA Tracker Update for ' + str(date.today()),
+            subject='TIARA Update for ' + str(date.today()),
             html_content=output)
         try:
             sg = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))
@@ -154,7 +154,7 @@ if os.path.exists(todaysFilename):
 
         # Create message container - the correct MIME type is multipart/alternative.
         msg = MIMEMultipart('alternative')
-        msg['Subject'] = 'IA Tracker Update for ' + str(date.today())
+        msg['Subject'] = 'TIARA Update for ' + str(date.today())
         msg['From'] = FROM_EMAIL
         msg['To'] = TO_EMAIL
 
