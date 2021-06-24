@@ -24,7 +24,7 @@ USE_SENDGRID = False
     # https://sendgrid.com/docs/for-developers/sending-email/quickstart-python/
 USE_SYSTEMMAIL = False
     # for this option your system must have sendmail or postfix or similar installed
-    # and configured. I have not been able to test this much.
+    # and configured. 
 
 
 import internetarchive
