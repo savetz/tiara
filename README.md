@@ -7,7 +7,7 @@ Searches [Internet Archive](https://archive.org/) using its full text search for
 
 Put your keywords in searchlist.txt, one search term per line. Very general terms (like "dogs") provide too many daily hits to be useful. More specific phrases work better.
 
-Dependency: [Internet Archive command line tool](https://github.com/jjjake/internetarchive) (Install with pip install internetarchive)
+Dependency: [Internet Archive command line tool](https://github.com/jjjake/internetarchive) (Install with pip3 install internetarchive)
 The script also requires read-write access to the directory it lives in.
 
 Issue: Internet Archive cannot generate thumbnails for all items. In these cases, you may see a broken image icon.
