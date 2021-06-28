@@ -20,7 +20,7 @@ TO_EMAIL   = 'you@example.com'
 USE_SENDGRID = False
     # for this option you must have a SendGrid account (their free account is fine)
     # with an API key installed on your system, and the SendGrid helper library
-    # installed. Your account must be have your FROM_EMAIL as a verified sender. 
+    # installed. Your account must have your FROM_EMAIL as a verified sender. 
     # https://sendgrid.com/docs/for-developers/sending-email/quickstart-python/
 USE_SYSTEMMAIL = False
     # for this option your system must have sendmail or postfix or similar installed
