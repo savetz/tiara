@@ -3,6 +3,16 @@
 
 *The Internet Archive Research Assistant*
 
+<br>
+
+<img
+    src = 'Resources/Showcase.png'
+    height = 400
+    title = 'Screenshot showing a sample days new items: four hits for "Pliny The Elder" and eight for "Wilamette River"'
+/>
+
+<br>
+
 The Internet Archive Research Assistant - Daily search Internet Archive for new items matching your keywords
 
 Searches [Internet Archive] using its full text search for new items matching the keywords you specify. Run this script once a day via crontab for daily updates about new items relevant to your ongoing research subjects. It keeps track of the items it has already found, so will only alert you to new-to-you items. The script outputs its findings to an html file, and optionally emails that file to you via SendGrid or your system mail (eg Sendmail or Postfix).
@@ -36,7 +46,6 @@ Put your keywords in searchlist.txt, one search term per line. Very general term
 
 If you find this tool useful, please [donate to Internet Archive][Donate]
 
-![screenshot showing a sample day's new items: four hits for "Pliny The Elder" and eight for "Wilamette River"][Showcase]
 
 
 <!----------------------------------------------------------------------------->
@@ -46,7 +55,6 @@ If you find this tool useful, please [donate to Internet Archive][Donate]
 [Donate]: https://archive.org/donate/
 [IACLT]: https://github.com/jjjake/internetarchive
 
-[Showcase]: Resources/Showcase.png
 [License]: LICENSE
 
 <!--------------------------------{ Badges }----------------------------------->
