@@ -9,8 +9,15 @@ Searches [Internet Archive] using its full text search for new items matching th
 
 Put your keywords in searchlist.txt, one search term per line. Very general terms (like "dogs") provide too many daily hits to be useful. More specific phrases work better.
 
-Dependency: [Internet Archive command line tool][IACLT] (Install with pip3 install internetarchive)
-The script also requires read-write access to the directory it lives in.
+##  Requirements
+
+- The script requires read / write access to it's directory
+
+- **[Internet Archive Command Line Tool][IACLT]**
+
+    ```sh
+    pip3 install internetarchive
+    ```
 
 Issue: Internet Archive cannot generate thumbnails for all items. In these cases, you may see a broken image icon.
 Issue: Internet Archive's full text search doesn't seem to allow exact phrase matching. So a search for "Pliny The Elder" may turn up items mentioning Pliny The Younger, or with "Pliny" on one page and "elder" on another.
