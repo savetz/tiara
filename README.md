@@ -18,9 +18,21 @@ Put your keywords in searchlist.txt, one search term per line. Very general term
     ```sh
     pip3 install internetarchive
     ```
+    
+<br>
 
-Issue: Internet Archive cannot generate thumbnails for all items. In these cases, you may see a broken image icon.
-Issue: Internet Archive's full text search doesn't seem to allow exact phrase matching. So a search for "Pliny The Elder" may turn up items mentioning Pliny The Younger, or with "Pliny" on one page and "elder" on another.
+## Known Issues
+
+- Thumbnails aren't generated for all items
+
+    *You will see the broken-image icon.*
+
+- Full text search doesn't seem to allow exact phrase matching
+
+    *A search such as `Pliny The Elder` may return items* <br>
+    *mentioning the exact phrase but can also return ones* <br>
+    *with `Pliny` on one page and `Elder` on another.*
+
 
 If you find this tool useful, please [donate to Internet Archive][Donate]
 
