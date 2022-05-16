@@ -13,6 +13,15 @@
     title = 'Screenshot showing a sample days new items: four hits for "Pliny The Elder" and eight for "Wilamette River"'
 />
     
+<br>
+
+---
+
+[![Button Bugs]][Bugs]   
+[![Button Donate]][Donate]
+
+---
+    
 </div>
 
 <br>
@@ -47,9 +56,7 @@ Put your keywords in searchlist.txt, one search term per line. Very general term
     *mentioning the exact phrase but can also return ones* <br>
     *with `Pliny` on one page and `Elder` on another.*
 
-
-If you find this tool useful, please [donate to Internet Archive][Donate]
-
+<br>
 
 
 <!----------------------------------------------------------------------------->
@@ -60,7 +67,14 @@ If you find this tool useful, please [donate to Internet Archive][Donate]
 [IACLT]: https://github.com/jjjake/internetarchive
 
 [License]: LICENSE
+[Bugs]: Documentation/Bugs.md
 
 <!--------------------------------{ Badges }----------------------------------->
 
 [Badge License]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
+
+
+<!-------------------------------{ Buttons }----------------------------------->
+
+[Button Donate]: https://img.shields.io/badge/Donate-yellow?style=for-the-badge&logo=InternetArchive&logoColor=white
+[Button Bugs]: https://img.shields.io/badge/Bugs-6A5FBB?style=for-the-badge
