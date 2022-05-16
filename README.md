@@ -5,11 +5,15 @@
 
 <br>
 
+<div align = center>
+
 <img
     src = 'Resources/Showcase.png'
     height = 400
     title = 'Screenshot showing a sample days new items: four hits for "Pliny The Elder" and eight for "Wilamette River"'
 />
+    
+</div>
 
 <br>
 
