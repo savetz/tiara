@@ -71,7 +71,7 @@ Atari 1200XL computer
 
 ##  Requirements
 
-- The script requires read / write access to it's directory
+- The script requires read / write access to its directory
 
 - **[Internet Archive Command Line Tool][IACLT]**
 
