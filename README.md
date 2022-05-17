@@ -26,11 +26,34 @@
 
 <br>
 
-The Internet Archive Research Assistant - Daily search Internet Archive for new items matching your keywords
+Daily search Internet Archive for new items matching your keywords
 
 Searches [Internet Archive] using its full text search for new items matching the keywords you specify. Run this script once a day via crontab for daily updates about new items relevant to your ongoing research subjects. It keeps track of the items it has already found, so will only alert you to new-to-you items. The script outputs its findings to an html file, and optionally emails that file to you via SendGrid or your system mail (eg Sendmail or Postfix).
 
-Put your keywords in searchlist.txt, one search term per line. Very general terms (like "dogs") provide too many daily hits to be useful. More specific phrases work better.
+
+<br>
+<br>
+
+## Usage
+
+Simply place your keywords / phrases into [`/Source/searchlist.txt`][SearchList] .
+
+### Example
+
+```txt
+Pliny The Elder
+Willamette River
+Atari 1200XL computer
+...
+```
+
+### Note
+
+*Try not to use generic terms like `dogs` ,* <br>
+*as this will return too many daily hits.*
+
+<br>
+<br>
 
 ##  Requirements
 
@@ -52,6 +75,7 @@ Put your keywords in searchlist.txt, one search term per line. Very general term
 [Donate]: https://archive.org/donate/
 [IACLT]: https://github.com/jjjake/internetarchive
 
+[SearchList]: Source/searchlist.txt
 [License]: LICENSE
 [Bugs]: Documentation/Bugs.md
 
