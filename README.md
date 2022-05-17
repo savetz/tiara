@@ -7,23 +7,26 @@
 
 <div align = center>
 
+---
+
+[![Button Archive]][Internet Archive]   
+[![Button Bugs]][Bugs]   
+[![Button Donate]][Donate]
+
+---
+
+<br>
+
+
 <img
     src = 'Resources/Showcase.png'
     height = 400
     title = 'Screenshot showing a sample days new items: four hits for "Pliny The Elder" and eight for "Wilamette River"'
 />
     
-<br>
-
----
-
-[![Button Bugs]][Bugs]   
-[![Button Donate]][Donate]
-
----
-    
 </div>
 
+<br>
 <br>
 
 Daily search Internet Archive for new items matching your keywords
@@ -86,5 +89,6 @@ Atari 1200XL computer
 
 <!-------------------------------{ Buttons }----------------------------------->
 
+[Button Archive]: https://img.shields.io/badge/Internet_Archive-666666?style=for-the-badge&logo=InternetArchive&logoColor=white
 [Button Donate]: https://img.shields.io/badge/Donate-yellow?style=for-the-badge&logo=InternetArchive&logoColor=white
 [Button Bugs]: https://img.shields.io/badge/Bugs-6A5FBB?style=for-the-badge
