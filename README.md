@@ -17,23 +17,34 @@
 
 <br>
 
-
 <img
-    src = 'Resources/Showcase.png'
     height = 400
     title = 'Screenshot showing a sample days new items: four hits for "Pliny The Elder" and eight for "Wilamette River"'
+    align = right
+    src = 'Resources/Showcase.png'
 />
     
 </div>
 
 <br>
+
+A tool to search the **[Internet Archive]** <br>
+for new items matching your keyword <br>
+search-list.
+
+Can be run with **[CronTab]** for daily <br>
+updates about new items, relevant <br>
+to your ongoing research.
+
+It keeps track of the items you have <br>
+discovered in the past and will only <br>
+alert you to ones new to you.
+
+Findings are placed in an **HTML** file, <br>
+which can be send as an email via <br>
+**[SendGrid]** to you automatically.
+
 <br>
-
-Daily search Internet Archive for new items matching your keywords
-
-Searches [Internet Archive] using its full text search for new items matching the keywords you specify. Run this script once a day via crontab for daily updates about new items relevant to your ongoing research subjects. It keeps track of the items it has already found, so will only alert you to new-to-you items. The script outputs its findings to an html file, and optionally emails that file to you via SendGrid or your system mail (eg Sendmail or Postfix).
-
-
 <br>
 <br>
 
@@ -74,6 +85,8 @@ Atari 1200XL computer
 <!----------------------------------------------------------------------------->
 
 [Internet Archive]: https://archive.org/
+[SendGrid]: https://sendgrid.com/
+[CronTab]: https://github.com/cronie-crond/cronie
 [Twitter]: https://twitter.com/kaysavetz
 [Donate]: https://archive.org/donate/
 [IACLT]: https://github.com/jjjake/internetarchive
