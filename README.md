@@ -55,13 +55,17 @@ Simply place your keywords / phrases into [`/Source/searchlist.txt`][SearchLis
 ### Example
 
 ```txt
-Pliny The Elder
+"Pliny The Elder"
 Willamette River
 Atari 1200XL computer
 ...
 ```
 
-### Note
+### Notes
+
+*Put words in double quotes to do an exact phrase match.
+Willamette River without quotes will find documents that have both of those words, perahps pages apart.
+"Willamette River" with quotes will find documents with those words together.
 
 *Try not to use generic terms like `dogs` ,* <br>
 *as this will return too many daily hits.*
