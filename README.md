@@ -33,7 +33,7 @@ for new items matching your keyword <br>
 search-list.
 
 Can be run with **[CronTab]** for daily <br>
-updates about new items, relevant <br>
+updates about new items relevant <br>
 to your ongoing research.
 
 It keeps track of the items you have <br>
@@ -41,7 +41,7 @@ discovered in the past and will only <br>
 alert you to ones new to you.
 
 Findings are placed in an **HTML** file, <br>
-which can be send as an email via <br>
+which can be sent as an email via <br>
 **[SendGrid]** to you automatically.
 
 <br>
