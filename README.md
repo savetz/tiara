@@ -67,8 +67,7 @@ Atari 1200XL computer
 *Willamette River without quotes will find documents that have both of those words, perahps pages apart.*
 *"Willamette River" with quotes will find documents with those words together.*
 
-*Try not to use generic terms like `dogs` ,* <br>
-*as this will return too many daily hits.*
+*Try not to use generic terms like `dogs` , as this will return too many daily hits.*
 
 <br>
 <br>
