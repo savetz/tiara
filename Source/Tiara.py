@@ -86,7 +86,7 @@ for searchTerm in searchList:
                 out += "<tr>"
             out += '<td><a href="https://archive.org/details/' + myDict['fields']['identifier'][0]
             out += '/mode/2up?q=' + urllib.parse.quote_plus(searchTerm) + '">'
-            out += '<img width="180" src="http://archive.org/20/items/' + myDict['fields']['identifier'][0]+ '/__ia_thumb.jpg"><br />'
+            out += '<img width="180" src="https://archive.org/serve/' + myDict['fields']['identifier'][0]+ '/__ia_thumb.jpg"><br />'
             out += myDict['fields']['meta_title'][0]
             out += '</a></td>\r'
             if rowcounter==4:
