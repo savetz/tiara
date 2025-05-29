@@ -42,7 +42,7 @@ alert you to ones new to you.
 
 Findings are placed in an **HTML** file, <br>
 which can be sent as an email via <br>
-**[SendGrid]** to you automatically.
+SendGrid or your system's e-mail.
 
 <br>
 <br>
