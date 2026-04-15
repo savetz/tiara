@@ -69,6 +69,8 @@ Atari 1200XL computer
 
 *Try not to use generic terms like `dogs` , as this will return too many daily hits.*
 
+*I've built a web service version of TIARA for people who prefer to not run the script themselves: https://usetiara.com
+
 <br>
 <br>
 
